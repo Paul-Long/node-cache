@@ -1,0 +1,25 @@
+{
+  "name": "@paul-long/node-cache",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:cache-control": "node ./cache-control/server.js",
+    "start:modified-since": "node ./modified-since/server.js",
+    "start:etag": "node ./e-tag/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Paul-Long/node-cache.git"
+  },
+  "author": "paul-long <7328194@163.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Paul-Long/node-cache/issues"
+  },
+  "homepage": "https://github.com/Paul-Long/node-cache#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "md5": "^2.2.1"
+  }
+}
