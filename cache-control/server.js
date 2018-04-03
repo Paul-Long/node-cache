@@ -25,7 +25,7 @@ app.get('/*.js', function (req, res, next) {
     res.end(content);
   });
 });
-const server = app.listen(4000, function () {
+const server = app.listen(3389, function () {
   const port = server.address().port;
   console.log("应用实例，访问地址为 http://localhost:%s", port)
 });
